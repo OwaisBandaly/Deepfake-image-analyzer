@@ -69,10 +69,10 @@ nbformat==5.10.4
 nest-asyncio==1.6.0
 notebook==7.2.2
 notebook_shim==0.2.4
-numpy==2.2.4
+numpy==1.23.5
 overrides==7.7.0
 packaging==24.2
-pandas==2.2.3
+pandas==1.5.3
 pandocfilters==1.5.1
 parso==0.7.1
 platformdirs==4.3.6
@@ -103,7 +103,7 @@ rfc3339-validator==0.1.4
 rfc3986-validator==0.1.1
 rope==1.13.0
 rpds-py==0.21.0
-scikit-learn==1.6.1
+scikit-learn==1.0.2
 scipy==1.15.2
 Send2Trash==1.8.3
 setuptools==75.5.0
