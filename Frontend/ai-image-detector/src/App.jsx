@@ -100,7 +100,7 @@ const ImageUpload = () => {
         <div className="fixed top-4 right-6 group cursor-pointer z-50">
           <div className="text-cyan-600 text-2xl">
             <img
-              src="./assets/info.png"
+              src="/assets/info.png"
               alt="info"
               className="w-8 opacity-90"
             />
@@ -172,7 +172,7 @@ const ImageUpload = () => {
                 isDragging ? "border-fuchsia-800" : "border-slate-900"
               } border-dashed py-3 px-8 scale-120 my-8 font-bold rounded-xl flex flex-col items-center justify-center transition-colors duration-300`}
             >
-              <img src="./assets/icon.png" alt="" className="w-[3rem]" />
+              <img src="/assets/icon.png" alt="" className="w-[3rem]" />
               <label
                 onDragOver={handleDragOver}
                 onDragLeave={handleDragLeave}
