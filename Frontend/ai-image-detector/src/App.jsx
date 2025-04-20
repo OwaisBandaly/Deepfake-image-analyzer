@@ -66,7 +66,7 @@ const ImageUpload = () => {
 
     try {
       const response = await axios.post(
-        `${url}/analyze`,
+        "https://deepfake-image-analyzer.onrender.com/analyze",
         formData
       );
       console.log(response);
