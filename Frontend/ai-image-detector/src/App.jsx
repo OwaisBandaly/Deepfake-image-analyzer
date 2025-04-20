@@ -10,6 +10,8 @@ const ImageUpload = () => {
   const [loading, setLoading] = useState(false);
   const [isDragging, setIsDragging] = useState(false);
 
+  const url = "https://deepfake-image-analyzer.onrender.com";
+
   const handleDragOver = (e) => {
     e.preventDefault();
     setIsDragging(true);
@@ -64,7 +66,7 @@ const ImageUpload = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/analyze",
+        `${url}/analyze`,
         formData
       );
       console.log(response);
